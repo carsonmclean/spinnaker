@@ -1,3 +1,4 @@
+# comment out services that you don't want rebuilt
 clouddriver: 
   build: ../../../build/clouddriver
 echo: 
@@ -14,6 +15,5 @@ rosco:
   build: ../../../build/rosco
 fiat:
   build: ../../../build/fiat
-# comment out services that you don't want rebuilt like this
-# deck: 
-# build: ../../../build/deck
+deck: 
+  build: ../../../build/deck
